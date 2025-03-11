@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tcv project</title>
+</head>
+<body>
+    <header>
+        <div><a href="/">tcv proj</a></div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/dashboard.html">Dashboard</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="page-header">
+            <div>
+                Verify Certificate Page
+            </div>
+        </section>
+        <section class="page-body">
+            <div>
+                <p>Option-1: Verify with a cerificate id</p>
+                <form action="">
+                    <div>
+                        <label for="cId">Certificate ID</label>
+                        <input type="text" id="cId" name="cId">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Option-2: Upload a cerificate QR Code</p>
+                <form action="">
+                    <div>
+                        <label for="cQR">Certificate QR Code</label>
+                        <input type="file" name="cQR" id="cQR">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <!-- Show the result in popup -->
+            <div>
+                <p>The Certificate is Active / Revoked / Fake</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Copyright @2025 | Developed by SQH</p>
+        </div>
+    </footer>
+</body>
+</html>
